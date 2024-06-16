@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blitz</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #36393F; /* Discord background color */
+            color: #FFFFFF; /* Text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: #202225; /* Darker Discord background color */
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            width: 80%;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .download-button {
+            display: inline-block;
+            background-color: #7289DA; /* Discord theme color */
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #677BC4; /* Darker shade for hover */
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background-image: url('death.png'); /* Replace with your icon */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto 20px;
+        }
+        .discord-logo {
+            width: 24px;
+            height: 24px;
+            background-image: url('discord-logo.png'); /* Replace with Discord logo */
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="discord-logo"></div>
+        <div class="icon"></div>
+        <h1>Install Blitz</h1>
+        <p>Blitz Discord server nuker</p>
+        <a href="blitz-download.zip" class="download-button" download>Download Now</a>
+        <div class="footer">Tool by <a href="#" target="_blank" style="color: #7289DA; text-decoration: none;">Blitz</a></div>
+    </div>
+</body>
+</html>
